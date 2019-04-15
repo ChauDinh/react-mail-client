@@ -3,6 +3,9 @@ import Input from "@material-ui/core/Input";
 import Button from "@material-ui/core/Button";
 import SearchIcon from "@material-ui/icons/Search";
 
+import Login from "../Auth/Login";
+import Register from "../Auth/Register";
+
 export class Header extends Component {
   constructor() {
     super();
@@ -24,6 +27,8 @@ export class Header extends Component {
               <SearchIcon />
             </Button>
           </form>
+          <Register />
+          <Login />
         </header>
       </div>
     )

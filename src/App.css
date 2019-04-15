@@ -1,4 +1,6 @@
 @import "./components/Header/header.style.css";
+@import "./components/Auth/login.style.css";
+@import "./components/Auth/register.style.css";
 
 * {
   padding: 0;

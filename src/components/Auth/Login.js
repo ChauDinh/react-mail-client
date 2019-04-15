@@ -1,8 +1,9 @@
 import React from "react";
+import IconLogin from "@material-ui/icons/AccountCircleOutlined";
 
 const Login = () => (
-  <div>
-    welcome from login page
+  <div className="login">
+    <IconLogin />
   </div>
 );
 

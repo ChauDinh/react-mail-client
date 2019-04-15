@@ -1,8 +1,9 @@
 import React from "react";
+import IconApps from "@material-ui/icons/Add";
 
 const Register = () => (
-  <div>
-    welcome from register
+  <div className="register">
+    <IconApps />
   </div>
 );
 
