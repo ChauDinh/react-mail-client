@@ -1,6 +1,7 @@
 @import "./components/Header/header.style.css";
 @import "./components/Auth/login.style.css";
 @import "./components/Auth/register.style.css";
+@import "./components/Navigation/navigation.style.css";
 
 * {
   padding: 0;
